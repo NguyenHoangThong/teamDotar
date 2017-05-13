@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.services;
+package com.example.nguyenhoangthong.applock.services;
 
 import android.app.ActivityManager;
 import android.app.Dialog;
@@ -32,17 +32,15 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.TreeMap;
 
-import applock.mindorks.com.applock.AppLockApplication;
-import applock.mindorks.com.applock.AppLockConstants;
-import applock.mindorks.com.applock.Custom.FlatButton;
-import applock.mindorks.com.applock.PasswordRecoveryActivity;
-import applock.mindorks.com.applock.R;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
-import applock.mindorks.com.applock.Utils.SharedPreference;
+import com.example.nguyenhoangthong.applock.AppLockApplication;
+import com.example.nguyenhoangthong.applock.AppLockConstants;
+import com.example.nguyenhoangthong.applock.Custom.FlatButton;
+import com.example.nguyenhoangthong.applock.PasswordRecoveryActivity;
+import com.example.nguyenhoangthong.applock.R;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.Utils.SharedPreference;
 
-/**
- * Created by amitshekhar on 28/04/15.
- */
+
 public class AppCheckServices extends Service {
 
     public static final String TAG = "AppCheckServices";

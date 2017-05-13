@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.Fragments;
+package com.example.nguyenhoangthong.applock.Fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,9 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import applock.mindorks.com.applock.Adapter.ApplicationListAdapter;
-import applock.mindorks.com.applock.MainActivity;
-import applock.mindorks.com.applock.R;
+import com.example.nguyenhoangthong.applock.Adapter.ApplicationListAdapter;
+import com.example.nguyenhoangthong.applock.MainActivity;
+import com.example.nguyenhoangthong.applock.R;
 
 
 public class AllAppFragment extends Fragment {

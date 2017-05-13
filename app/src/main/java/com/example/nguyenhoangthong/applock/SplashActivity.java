@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock;
+package com.example.nguyenhoangthong.applock;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -18,8 +18,8 @@ import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
-import applock.mindorks.com.applock.services.AlarmReceiver;
-import applock.mindorks.com.applock.services.AppCheckServices;
+import com.example.nguyenhoangthong.applock.services.AlarmReceiver;
+import com.example.nguyenhoangthong.applock.services.AppCheckServices;
 
 
 public class SplashActivity extends AppCompatActivity {

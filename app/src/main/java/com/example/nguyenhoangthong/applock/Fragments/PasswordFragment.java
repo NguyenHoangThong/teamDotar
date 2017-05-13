@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.Fragments;
+package com.example.nguyenhoangthong.applock.Fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,11 +14,11 @@ import android.widget.Toast;
 
 import com.takwolf.android.lock9.Lock9View;
 
-import applock.mindorks.com.applock.AppLockConstants;
-import applock.mindorks.com.applock.Custom.FlatButton;
-import applock.mindorks.com.applock.MainActivity;
-import applock.mindorks.com.applock.R;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.AppLockConstants;
+import com.example.nguyenhoangthong.applock.Custom.FlatButton;
+import com.example.nguyenhoangthong.applock.MainActivity;
+import com.example.nguyenhoangthong.applock.R;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
 
 
 public class PasswordFragment extends Fragment {

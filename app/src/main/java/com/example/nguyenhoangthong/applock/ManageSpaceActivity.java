@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock;
+package com.example.nguyenhoangthong.applock;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

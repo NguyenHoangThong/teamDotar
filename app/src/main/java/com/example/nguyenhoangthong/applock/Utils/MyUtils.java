@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.Utils;
+package com.example.nguyenhoangthong.applock.Utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock;
+package com.example.nguyenhoangthong.applock;
 
 import android.content.Context;
 import android.content.Intent;

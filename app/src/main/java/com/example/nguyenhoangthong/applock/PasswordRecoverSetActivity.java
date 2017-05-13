@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock;
+package com.example.nguyenhoangthong.applock;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,8 +20,8 @@ import com.google.android.gms.analytics.Tracker;
 import java.util.ArrayList;
 import java.util.List;
 
-import applock.mindorks.com.applock.Custom.FlatButton;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.Custom.FlatButton;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
 
 
 public class PasswordRecoverSetActivity extends AppCompatActivity {

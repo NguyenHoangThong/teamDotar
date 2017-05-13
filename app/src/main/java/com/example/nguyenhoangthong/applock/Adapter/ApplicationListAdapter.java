@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.Adapter;
+package com.example.nguyenhoangthong.applock.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.CardView;
@@ -14,11 +14,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import applock.mindorks.com.applock.AppLockConstants;
-import applock.mindorks.com.applock.Data.AppInfo;
-import applock.mindorks.com.applock.R;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
-import applock.mindorks.com.applock.Utils.SharedPreference;
+import com.example.nguyenhoangthong.applock.AppLockConstants;
+import com.example.nguyenhoangthong.applock.Data.AppInfo;
+import com.example.nguyenhoangthong.applock.R;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.Utils.SharedPreference;
 
 
 public class ApplicationListAdapter extends RecyclerView.Adapter<ApplicationListAdapter.ViewHolder> {

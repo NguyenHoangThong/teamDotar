@@ -33,7 +33,7 @@
         android:stepSize="1.0" />
 
 
-    <applock.mindorks.com.applock.Custom.FlatButton
+    <com.example.nguyenhoangthong.applock.Custom.FlatButton
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

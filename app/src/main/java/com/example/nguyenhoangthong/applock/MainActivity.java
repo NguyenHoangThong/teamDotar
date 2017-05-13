@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock;
+package com.example.nguyenhoangthong.applock;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -38,12 +38,12 @@ import com.mikepenz.materialdrawer.util.KeyboardUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import applock.mindorks.com.applock.Custom.FlatButton;
-import applock.mindorks.com.applock.Data.AppInfo;
-import applock.mindorks.com.applock.Fragments.AllAppFragment;
-import applock.mindorks.com.applock.Fragments.PasswordFragment;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
-import applock.mindorks.com.applock.Utils.MyUtils;
+import com.example.nguyenhoangthong.applock.Custom.FlatButton;
+import com.example.nguyenhoangthong.applock.Data.AppInfo;
+import com.example.nguyenhoangthong.applock.Fragments.AllAppFragment;
+import com.example.nguyenhoangthong.applock.Fragments.PasswordFragment;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.Utils.MyUtils;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -342,7 +342,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (canGoToPlayStore[0]) {
-                    Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=applock.mindorks.com.applock");
+                    Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=com.example.nguyenhoangthong.applock");
                     Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
                     goToMarket.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(goToMarket);

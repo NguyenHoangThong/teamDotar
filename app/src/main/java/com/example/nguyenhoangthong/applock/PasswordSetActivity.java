@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock;
+package com.example.nguyenhoangthong.applock;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.takwolf.android.lock9.Lock9View;
 
-import applock.mindorks.com.applock.Custom.FlatButton;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.Custom.FlatButton;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
 
 
 public class PasswordSetActivity extends AppCompatActivity {

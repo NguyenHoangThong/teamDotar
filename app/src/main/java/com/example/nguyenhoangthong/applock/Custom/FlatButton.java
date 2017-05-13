@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.Custom;
+package com.example.nguyenhoangthong.applock.Custom;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -15,7 +15,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
-import applock.mindorks.com.applock.R;
+import com.example.nguyenhoangthong.applock.R;
 
 
 

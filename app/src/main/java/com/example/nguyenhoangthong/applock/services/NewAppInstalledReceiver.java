@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.services;
+package com.example.nguyenhoangthong.applock.services;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -13,14 +13,12 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
-import applock.mindorks.com.applock.AppLockConstants;
-import applock.mindorks.com.applock.R;
-import applock.mindorks.com.applock.Utils.AppLockLogEvents;
-import applock.mindorks.com.applock.Utils.SharedPreference;
+import com.example.nguyenhoangthong.applock.AppLockConstants;
+import com.example.nguyenhoangthong.applock.R;
+import com.example.nguyenhoangthong.applock.Utils.AppLockLogEvents;
+import com.example.nguyenhoangthong.applock.Utils.SharedPreference;
 
-/**
- * Created by amitshekhar on 01/05/15.
- */
+
 public class NewAppInstalledReceiver extends BroadcastReceiver {
 
     SharedPreference sharedPreference;

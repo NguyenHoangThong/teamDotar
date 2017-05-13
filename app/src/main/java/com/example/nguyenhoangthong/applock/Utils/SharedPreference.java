@@ -1,4 +1,4 @@
-package applock.mindorks.com.applock.Utils;
+package com.example.nguyenhoangthong.applock.Utils;
 
 
 
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import applock.mindorks.com.applock.AppLockConstants;
+import com.example.nguyenhoangthong.applock.AppLockConstants;
 
 public class SharedPreference {
     public static final String LOCKED_APP = "locked_app";

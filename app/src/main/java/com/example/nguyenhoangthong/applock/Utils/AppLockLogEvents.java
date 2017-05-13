@@ -1,9 +1,9 @@
-package applock.mindorks.com.applock.Utils;
+package com.example.nguyenhoangthong.applock.Utils;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
-import applock.mindorks.com.applock.AppLockApplication;
+import com.example.nguyenhoangthong.applock.AppLockApplication;
 
 
 public class AppLockLogEvents {
